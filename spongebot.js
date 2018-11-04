@@ -33,20 +33,20 @@ socket.on("data", function (data) {
     });
 });
 
-#bot.on('message', function (user, userID, channelID, message, evt) {
-#    if (user == 'kpzerg') {
-#        spongebob_message = '';
-#        for (var i = 0; i < message.length; i++) {
-#            if (Math.random() > 0.5) {
-#                spongebob_message += message.charAt(i).toUpperCase();
-#            } else {
-#                spongebob_message += message.charAt(i).toLowerCase();
-#            }
-#        }
-#
-#        bot.sendMessage({
-#            to: channelID,
-#            message: spongebob_message 
-#        });
-#    }
-#});
+//bot.on('message', function (user, userID, channelID, message, evt) {
+//    if (user == 'kpzerg') {
+//        spongebob_message = '';
+//        for (var i = 0; i < message.length; i++) {
+//            if (Math.random() > 0.5) {
+//                spongebob_message += message.charAt(i).toUpperCase();
+//            } else {
+//                spongebob_message += message.charAt(i).toLowerCase();
+//            }
+//        }
+//
+//        bot.sendMessage({
+//            to: channelID,
+//            message: spongebob_message 
+//        });
+//    }
+//});
