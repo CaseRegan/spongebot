@@ -1,0 +1,11 @@
+{
+    "name": "sPoNGebOt",
+    "version": "1.0.0",
+    "description": "echos a user in a channel as mocking spongebob",
+    "main": "spongebot.js",
+    "author": "eec9207e1d38ca13dfd3d314788a1db11eb9f64983ac61a782b3c6e31ae6b89a",
+    "dependencies": {
+        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "net": "net"
+    }
+}
